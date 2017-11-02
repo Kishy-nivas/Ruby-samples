@@ -1,3 +1,6 @@
+#task rewrite this program, implementing object oriented features 
+
+
 default_balance =100.0 
 io = nil 
 balance = nil 

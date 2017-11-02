@@ -22,15 +22,13 @@ end
 
 
 
-s1 =Student.new("kishore",21)
+s1 =Student.new("Kishore",21)
 print (s1.get_count()) 
 puts "" 
 print (s1.get_name())
 puts "" 
-t1 = Teacher.new("sindhu",23)
+t1 = Teacher.new("Sindhu",23)
 print (t1.get_name())
+puts ""
 print (t1.get_count())
-(1..5).each do |i|
-	print (i)
 	
-end

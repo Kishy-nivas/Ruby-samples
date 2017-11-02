@@ -139,3 +139,6 @@ string_to_arr = str.split(" ")
 string_to_arr.each do |a| 
 	print ("#{a} \n")  
 end 
+
+
+# that's all folks ,head over to object_oriented_examples :) 
