@@ -12,9 +12,10 @@ if File.exist?(file_name)
 else 
 	balance = default_balance  
 	puts "default_balance loaded !!! "
-end
+end 
 
 while command.upcase !="Q"
+
 	print "D)eposit, W)ithdraw, Q)uit, P)rint "
 	command = gets.chomp() 
 	if command.upcase =="D" then 
