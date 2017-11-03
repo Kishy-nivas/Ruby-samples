@@ -1,15 +1,16 @@
 # Ruby-Exercises-
 basic ruby programs to get started quickly :) 
 
-basic program collection file contains collections of basics  to start quickly 
+codeforces-solutions contains problems solved with Ruby
 
-nested_data_structure files has array,dictionary and looping examples 
+get-started-quickly contains two files to quickly get a grasp of Ruby programs(compilation of mini programs )
 
-files which end with _app are real time scenaior  (interacting with user )
+pluralsight contains code-examples from plural-sight ruby courses 
 
-files which starts with ruby(0..n) are from pluralsight courses 
+scenarios contains examples like interacting with the user 
 
-codeforces files contains solutions solved with Ruby 
+topic-wise-examples contains programs targeting a single topic 
 
-if you have anything to contribute, please contribute, so beginners can start over quickly. 
+
+feel free to contribute anything that involves Ruby :) 
 
