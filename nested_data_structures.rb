@@ -45,6 +45,7 @@ print "*************\n"
 =begin 
 last_names = ["D", "Krugman"]
 
+
 Iterate over last_names and create this array: ["Paul D", "Paul Krugman"]
 =end 
 last_names = ["D","Krugman"]

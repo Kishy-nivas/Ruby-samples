@@ -22,5 +22,12 @@ end
 c= Calculators.new 
 puts c.square1(5)
 puts c.mod1(17,2)
-										
+count = 5
+count.times {
+puts "hello"
+}
 
+s= "b"
+if ("a".."z").include?(s)
+	puts "it works "
+end 										
