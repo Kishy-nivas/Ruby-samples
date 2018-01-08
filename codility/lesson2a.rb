@@ -8,14 +8,17 @@ def solution(a)
   a.sort! 
   count = 0 
   for i in (0..a.size-2) 
-    if a[i]==a[i+1] 
+    if a[i] ==a [i+1] 
       count+=1 
+    
     elsif a[i]!=a[i+1] and (count %2 !=1) or (i == a.size-2 )    # odd occurence detected 
       return a[i+1] if i==a.size-2 
       return a[i] 
+    
     else 
       count = 0                      # new set of identical elements 
     end 
+  
   end 
   
 end
