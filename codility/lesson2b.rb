@@ -1,4 +1,7 @@
 def solution(arr, k)
+  if arr.empty?
+    return arr 
+  end 
   k.times do 
     last_value = arr.pop 
     arr.insert(0,last_value) 
