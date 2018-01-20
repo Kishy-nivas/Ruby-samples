@@ -22,28 +22,15 @@ def solution(s,p_arr,q)
   p_arr.each_index do |i| 
     from  = p_arr[i]
     to = q[i]
-    if from==0 
-      if genomes[:a][to] > 0 
-        answer << 1 
-      elsif genomes[:c][to] > 0 
-        answer <<2 
-      elsif genomes[:g][to] > 0 
-        answer << 3 
-      else 
-        answer << 4 
-      end 
-    else 
-          
-    if genomes[:a][to] > genomes[:a][from-1] 
+    if genomes[:a][to] > genomes[:a][from-1]      # when from ==0 , from-1  accesses the last element which is also zero 
       answer << 1 
     elsif  genomes[:c][to] > genomes[:c][from-1]
       answer<<2 
     elsif genomes[:g][to] > genomes[:g][from-1]
       answer << 3 
-    else 
+    else  
       answer<<4 
     end 
-  end 
       
   end
  p  answer 
